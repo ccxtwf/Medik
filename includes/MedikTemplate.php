@@ -183,7 +183,7 @@ class MedikTemplate extends BaseTemplate {
 
 		$html .= $this->htmlClass::rawElement(
 			'div',
-			[ 'class' => 'd-flex flex-row' ],
+			[ 'class' => 'd-flex flex-row flex-wrap' ],
 			$this->getPortlet(
 				'namespaces',
 				$this->data['content_navigation']['namespaces'],
