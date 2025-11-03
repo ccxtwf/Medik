@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"MuratTheTurkish",
-			"Rapsar"
+			"Rapsar",
+			"SaldırganSincap"
 		]
 	},
 	"skinname-medik": "Medik",
 	"medik-default": "varsayılan",
-	"medik-desc": "WikiSkripta.eu görünümü, 1. Tıp Fakültesi, Charles Üniversitesi (Çek Cumhuriyeti) tıbbi viki projesi.",
+	"medik-desc": "Bootstrap kütüphanesine dayalı basit ve temiz bir görünüm.",
 	"medik-font-label": "Yazı tipi boyutu",
 	"medik-tools-menu": "Değiştirme ve araçlar"
 }
