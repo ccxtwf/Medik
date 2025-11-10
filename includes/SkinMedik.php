@@ -16,7 +16,7 @@ class SkinMedik extends SkinTemplate {
 	public $template = 'MedikTemplate';
 
 	/**
-	 * Add CSS via ResourceLoader
+	 * Add meta tags
 	 *
 	 * @param OutputPage $out OutputPage
 	 */
@@ -28,10 +28,6 @@ class SkinMedik extends SkinTemplate {
 			->getOption( $this->getSkin()->getUser(), 'skin-responsive' ) ) {
 				$out->addMeta( 'viewport', 'width=device-width' );
 		}
-
-		$out->addModuleStyles( [ 'skins.medik' ] );
-
-		$out->addModules( [ 'skins.medik.js' ] );
 	}
 
 }

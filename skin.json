@@ -16,7 +16,13 @@
 					"name": "medik",
 					"bodyOnly": true,
 					"template": "MedikTemplate",
-					"responsive": true
+					"responsive": true,
+					"scripts": [
+						"skins.medik.js"
+					],
+					"styles": [
+						"skins.medik"
+					]
 				}
 			]
 		}
