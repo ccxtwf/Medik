@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "sjálfgefið",
+	"medik-desc": "Einfalt og hreint skinn byggt á Bootstrap-aðgerðasafninu.",
+	"medik-font-label": "Leturstærð",
+	"medik-tools-menu": "Breytingar og verkfæri"
+}
