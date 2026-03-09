@@ -274,6 +274,21 @@ aside a:not( .disabled ) {
 	font-size: 100%;
 }
 
+/* 
+ * MW 1.45 Breaking change: Prevent headings from being upscaled twice on mw-body-content
+ * See: https://www.mediawiki.org/wiki/Heading_HTML_changes
+ *      https://github.com/wikiskripta/Medik/issues/2
+ */
+.mw-heading1,
+.mw-heading2,
+.mw-heading3,
+.mw-heading4,
+.mw-heading5,
+.mw-heading6 {
+    font-size: 100%;
+    font-weight: 500;
+}
+
 .mw-indicators {
 	float: right;
 	line-height: 1.6;
