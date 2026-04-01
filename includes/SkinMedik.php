@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\OutputPage;
 
 /**
  * SkinTemplate class for the Medik skin
@@ -20,14 +21,15 @@ class SkinMedik extends SkinTemplate {
 	 *
 	 * @param OutputPage $out OutputPage
 	 */
-	public function initPage( OutputPage $out ) {
-		$out->addMeta( 'theme-color', RequestContext::getMain()->getConfig()->get( 'MedikColor' ) );
-		
+	public function initPage( OutputPage $out ): void {
+		parent::initPage( $out );
+
+		$out->addMeta( 'theme-color', (string)$this->getConfig()->get( 'MedikColor' ) );
+
 		if ( MediaWikiServices::getInstance()
 			->getUserOptionsLookup()
-			->getOption( $this->getSkin()->getUser(), 'skin-responsive' ) ) {
+			->getOption( $this->getUser(), 'skin-responsive' ) ) {
 				$out->addMeta( 'viewport', 'width=device-width' );
 		}
 	}
-
 }

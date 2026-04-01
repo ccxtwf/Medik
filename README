@@ -39,3 +39,11 @@ Copyright (c) First Faculty of Medicine, Charles University
   project: https://www.wikiskripta.eu
 
 See the LICENSE file for details.
+
+
+MediaWiki 1.45 notes
+--------------------
+
+This package was updated for MediaWiki 1.45. The skin no longer uses deprecated
+ResourceLoader SkinModule features such as `i18n-all-lists-margins` and
+`interface-message-box`, and its custom JavaScript no longer depends on jQuery.

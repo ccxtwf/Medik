@@ -400,3 +400,34 @@ legend {
 .mw-footer #footer-list li:not( :first-child )::before {
 	content: ' ― ';
 }
+
+
+/* MediaWiki 1.45 compatibility fallbacks replacing deprecated SkinModule features */
+.mw-message-box {
+	margin: 1em 0;
+	padding: 0.75em 1em;
+	border: 1px solid #a2a9b1;
+	border-radius: 0.25rem;
+	background-color: #f8f9fa;
+}
+
+.mw-message-box-warning {
+	background-color: #fff4d6;
+	border-color: #f1c232;
+}
+
+.mw-message-box-error {
+	background-color: #fde7e9;
+	border-color: #d33;
+}
+
+.mw-message-box-success {
+	background-color: #eaf3e6;
+	border-color: #36c;
+}
+
+.mw-parser-output ol,
+.mw-parser-output ul {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}

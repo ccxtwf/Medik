@@ -1,7 +1,7 @@
 {
 	"name": "Medik",
 	"namemsg": "skinname-medik",
-	"version": "5.1.3",
+	"version": "5.1.4",
 	"author": "Petr Kajzar",
 	"url": "https://www.mediawiki.org/wiki/Skin:Medik",
 	"description": "Simple and clean skin based on the Bootstrap library",
@@ -28,7 +28,7 @@
 		}
 	},
 	"requires": {
-		"MediaWiki": ">= 1.39.0"
+		"MediaWiki": ">= 1.45.0"
 	},
 	"MessagesDirs": {
 		"Medik": [
@@ -60,7 +60,7 @@
 			"value": "none",
 			"description": "Show logo in the header bar."
 		},
-		"MedikUseLogoWithoutText" : {
+		"MedikUseLogoWithoutText": {
 			"value": false,
 			"description": "Show only logo without text in the navbar."
 		}
@@ -72,11 +72,9 @@
 				"content-links": true,
 				"content-links-external": true,
 				"content-media": true,
-				"interface-message-box": true,
 				"interface-category": true,
 				"content-tables": true,
 				"i18n-ordered-lists": true,
-				"i18n-all-lists-margins": true,
 				"i18n-headings": true,
 				"elements": true,
 				"interface": true,
